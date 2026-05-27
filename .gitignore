@@ -1,0 +1,67 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build folders
+build/
+dist/
+
+# Python package files
+*.egg-info/
+
+# SQLite databases
+*.db
+
+# RAG/vector database files
+chroma/
+vectorstore/
+faiss_index/
+db/
+storage/
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# PDFs/documents used for ingestion
+data/
+documents/
+
+# Temporary files
+temp/
+tmp/
+cache/
+
+# Secrets/API keys
+config.py
+secrets.json
+credentials.json
